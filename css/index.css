@@ -1,0 +1,80 @@
+body {
+
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  background: rgb(199, 197, 197)
+  
+  
+}
+
+#controls {
+  display : flex;
+  gap: 20px;
+  
+}
+
+
+#heading {
+  font-size : 60px;
+  font-family : monospace;
+  margin-bottom: 20px;
+
+}
+
+
+#time-display {
+  font-size: 60px;
+  margin-bottom: 30px;
+  background: rgb(123, 123, 123);
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: 200
+
+
+  
+}
+
+button{
+  width : 100px;
+  height: 40px;
+  border-radius : 20px;
+  color: white;
+  
+  
+}
+
+
+
+
+.start-style {
+ background : green
+
+
+}
+
+#reset {
+  background: yellow;
+  color: black;
+
+}
+
+#stop {
+  background: red ;
+
+}
+
+button:hover {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+button.pause-style {
+  background-color: orange;
+}
+
+button.continue-style {
+  background-color: rgb(34, 122, 160);
+}
